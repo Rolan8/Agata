@@ -1,0 +1,54 @@
+
+.imgp3{
+ flex-basis: 320px;
+}
+.c1p3bg{
+	background-color: #ecdede;
+}
+
+.svgs1 svg{
+	max-width: unset;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.svgs1 svg:last-child{
+	top: 55%;
+}
+
+.c1p3geoline{
+	margin: 50px auto;
+	height: 250px;
+}
+
+@media(min-width: 1000px){
+.travel span:first-child{
+	padding-left:35px;
+}
+.travel span:nth-child(3){
+	padding-left: 40%;
+}
+.problem{
+	padding-left: 0px;
+}
+
+}
+
+
+@media (max-width: 1220px){
+	.c1p3flex{
+		max-width: 320px;
+		row-gap: 4rem;
+	}
+
+}
+
+
+.clr2{
+	background-color: #dce7e9;
+}
+
+.figures {
+  background: url("Img/figures.png") center center no-repeat;
+}

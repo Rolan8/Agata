@@ -1,0 +1,156 @@
+.c1p3flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.c1p3geometry {
+  -ms-flex-preferred-size: 400px;
+      flex-basis: 400px;
+  text-align: center;
+  position: relative;
+}
+
+.imgp3 {
+  /*max-width: 480px;*/
+  -ms-flex-preferred-size: 480px;
+      flex-basis: 480px;
+  font-size: 14px;
+  line-height: 1.286;
+  font-weight: bold;
+  /*	margin-left: 10%;*/
+  /*	margin: 200px 0px 200px 0%;*/
+}
+
+.c1p3bg {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: calc(50% - 1.97px);
+  height: 100%;
+  background-color: #edded5;
+  z-index: -3;
+}
+
+h1 {
+  margin: 0;
+  font-family: "AgaraBoldItalic";
+  font-size: 48px;
+  /*text-align: center;*/
+}
+
+.c1p3geoline {
+  height: 227px;
+  width: 1px;
+  background-color: #000;
+  margin: 40px auto;
+}
+
+.geoshare {
+  font-size: 24px;
+  cursor: pointer;
+}
+.geoshare span {
+  text-decoration: underline;
+}
+.geoshare:hover {
+  color: pink;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.innerromb {
+  width: 140px;
+  height: 140px;
+  background-color: white;
+  position: absolute;
+  z-index: -2;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+          transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.innerromb2 {
+  width: 404px;
+  height: 404px;
+  border: 1px solid white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+          transform: translate(-50%, -50%) rotate(45deg);
+  z-index: -2;
+}
+
+  .c2num{
+  font-size: 43.522px;
+  transform: translateX(-20px);
+  margin: 10px 0px 10px 0px;
+  }
+  .c2flt{
+  float: right;
+  line-height: 4rem;
+  }
+  .fright{
+    transform: translateY(-50%) translateX(29px);
+  } 
+  .dopline{
+    /*line-height: 0px !important;*/
+    margin: 0px 0px 0px 10px !important;
+  }
+  html{
+  font-size: 20px;
+  }
+
+
+
+
+@media (max-width: 1220px) {
+  .c1p3flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 480px;
+    margin: 60px auto;
+  }
+
+  .c1p3bg {
+    display: none;
+  }
+
+  body {
+    background-color: #edded5;
+  }
+}
+@media (max-width: 795px) {
+  .innerromb2 {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
+@media (max-width: 610px) {
+  .imgp3 > img {
+    max-width: 100%;
+  }
+  .verticalline, .fright{
+    display: none;
+  }
+}
+
+@media (max-width: 440px){
+  .innerromb2{max-width: 200px; max-height: 200px;}
+  .c1p3geometry h1{
+    font-size: 2rem;
+  }
+  .c1p3flex .imgp3{
+    flex-basis: unset;
+    margin-bottom: 60px;
+  }
+}

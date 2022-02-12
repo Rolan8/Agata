@@ -1,0 +1,156 @@
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50.14%;
+  background-color: #e5eaeb;
+  z-index: -3;
+}
+
+h1 {
+  max-width: 550px;
+  font-size: 111.721px;
+  line-height: 1;
+  margin: 180px auto 130px auto;
+}
+
+
+  .c2num{
+  font-size: 43.522px;
+  transform: translateX(-20px);
+  margin: 10px 0px 10px 0px;
+  }
+  .c2flt{
+  float: right;
+  line-height: 4rem;
+  } 
+  .dopline{
+    /*line-height: 0px !important;*/
+    margin: 0px 0px 0px 10px !important;
+  }
+
+.romb {
+  /*width: 70%;
+  height: 70%;*/
+  width: 679px;
+  height: 679px;
+  position: absolute;
+  border: 1px solid white;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+          transform: translate(-50%, -50%) rotate(45deg);
+  left: 50%;
+  top: 50%;
+  z-index: -2;
+}
+
+.imagec1p2 {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  left: 10%;
+  /*transform: translateX(-60%);*/
+}
+.imagec1p2 img {
+  height: 770px;
+}
+
+.travel span {
+  padding-left: 30%;
+}
+
+.travel span:first-child {
+  padding-left: 46%;
+}
+
+.travel .problem {
+  padding-left: 8%;
+}
+
+.travel span:last-child {
+  padding-left: 25%;
+}
+
+@media (max-width: 1000px) {
+  .imagec1p2 {
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+    left: 10%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .imagec1p2 img {
+    height: 570px;
+  }
+
+  h1 {
+    max-width: 550px;
+    font-size: 4rem;
+    line-height: 1;
+    margin: 180px auto 130px auto;
+    text-align: center;
+  }
+
+  .travel span, .travel span:last-child, .travel span:first-child, .travel .problem {
+    padding-left: 0px;
+  }
+}
+@media (min-width: 920px) {
+  .verticalline:hover div {
+    background-color: #4ab7d5;
+  }
+
+  .verticalline a:hover {
+    color: #4ab7d5;
+    border-color: #4ab7d5;
+  }
+
+  .next:hover .preline {
+    background-color: #4ab7d5;
+  }
+
+  .nnext:hover {
+    color: #4ab7d5;
+    border-color: #4ab7d5;
+  }
+
+  .seeall:hover {
+    color: #4ab7d5;
+    border-color: #4ab7d5;
+  }
+}
+@media (max-width: 800px) {
+  .imagec1p2 {
+    position: relative;
+    top: unset;
+    left: unset;
+    -webkit-transform: none;
+            transform: none;
+    text-align: center;
+  }
+
+  .travel {
+    margin: 4rem auto;
+    font-size: 3.5rem;
+  }
+
+  .bg {
+    width: 100%;
+  }
+}
+@media (max-width: 570px) {
+  .imagec1p2 img {
+    height: 400px;
+    max-width: 100%;
+  }
+
+  .travel {
+    margin: 3rem auto;
+    font-size: 2.5rem;
+  }
+
+  /*.romb{
+  	display: none;
+  }*/
+}
