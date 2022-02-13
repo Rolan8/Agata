@@ -15,7 +15,7 @@ let	lank = document.createElement('link');
 
 function organic() {
 			
-	
+	document.getElementsByTagName('style')[0].innerHTML = '';
 	lnk.href = '../Coll 1/Page 2/page_2.css';
 
 
