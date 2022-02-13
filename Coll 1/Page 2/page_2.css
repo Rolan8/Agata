@@ -138,6 +138,10 @@ h1 {
   .bg {
     width: 100%;
   }
+  
+   body{
+    background-color: #e5eaeb;
+  }
 }
 @media (max-width: 570px) {
   .imagec1p2 img {
