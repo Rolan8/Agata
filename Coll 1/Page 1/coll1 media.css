@@ -143,6 +143,9 @@
   h1{
     font-size: 4rem;
   }
+  .aligntext{
+    margin-bottom: 3rem;
+  }
 }
 
 @media (max-width: 440px){
